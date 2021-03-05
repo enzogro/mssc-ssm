@@ -1,5 +1,6 @@
 package guru.springframework.msscssm.domain;
 
+
 /**
  * Created by jt on 2019-07-23.
  */

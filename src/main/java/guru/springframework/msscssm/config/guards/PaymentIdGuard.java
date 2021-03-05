@@ -1,11 +1,13 @@
 package guru.springframework.msscssm.config.guards;
 
-import guru.springframework.msscssm.domain.PaymentEvent;
-import guru.springframework.msscssm.domain.PaymentState;
-import guru.springframework.msscssm.services.PaymentServiceImpl;
+
 import org.springframework.statemachine.StateContext;
 import org.springframework.statemachine.guard.Guard;
 import org.springframework.stereotype.Component;
+
+import guru.springframework.msscssm.domain.PaymentEvent;
+import guru.springframework.msscssm.domain.PaymentState;
+import guru.springframework.msscssm.services.PaymentServiceImpl;
 
 /**
  * Created by jt on 2019-08-18.

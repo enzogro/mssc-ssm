@@ -1,9 +1,11 @@
 package guru.springframework.msscssm.services;
 
+
+import org.springframework.statemachine.StateMachine;
+
 import guru.springframework.msscssm.domain.Payment;
 import guru.springframework.msscssm.domain.PaymentEvent;
 import guru.springframework.msscssm.domain.PaymentState;
-import org.springframework.statemachine.StateMachine;
 
 /**
  * Created by jt on 2019-08-10.
